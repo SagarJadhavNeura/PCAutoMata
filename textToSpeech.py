@@ -7,7 +7,7 @@ voices = conv.getProperty('voices')
 
 # Loop through voices to find a female voice
 for voice in voices:
-    print(voice)
+    #print(voice)
     if "Microsoft Zira Desktop - English (United States)" in voice.name:
         conv.setProperty('voice', voice.id)
         break
